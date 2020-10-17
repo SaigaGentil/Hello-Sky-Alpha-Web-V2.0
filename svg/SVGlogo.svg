@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 481 291" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="logo-shapes">
+        <path id="right-top-rectangle" d="M329,87.102L294.398,87.102L294.398,81.102L329,81.102L329,87.102" style="fill:rgb(127,130,121);"/>
+        <path id="right-bottom-rectangle" d="M329,127.102L293.398,127.102L293.398,121.102L329,121.102L329,127.102" style="fill:rgb(127,130,121);"/>
+        <path id="right-middle-rectangle" d="M347.949,107.102L303.5,107.102L303.5,101.102L347.949,101.102L347.949,107.102" style="fill:rgb(98,18,18);"/>
+        <path id="left-top-rectangle" d="M189.898,87.102L154.301,87.102L154.301,81.102L189.898,81.102L189.898,87.102" style="fill:rgb(127,130,121);"/>
+        <path id="left-bottom-rectangle" d="M189.898,127.102L154.301,127.102L154.301,121.102L189.898,121.102L189.898,127.102" style="fill:rgb(127,130,121);"/>
+        <path id="left-middle-rectangle" d="M178.699,107.102L135.398,107.102L135.398,101.102L178.699,101.102L178.699,107.102" style="fill:rgb(98,18,18);"/>
+        <path id="hexagon" d="M211.898,155.602L271.398,155.602L301.102,104.102L271.398,52.602L211.898,52.602L182.199,104.102L211.898,155.602M274.852,161.602L208.449,161.602L175.25,104.102L208.449,46.602L274.852,46.602L308.051,104.102L274.852,161.602" style="fill:rgb(47,49,60);"/>
+        <g id="middle-h" transform="matrix(1,0,0,1,224,126.5)">
+            <path d="M2.905,-48.125L3.315,-48.125C4.364,-47.92 4.888,-47.521 4.888,-46.929L4.888,-25.635L30.933,-25.635L30.933,-46.484C31.115,-47.578 31.605,-48.125 32.402,-48.125L32.71,-48.125C33.735,-47.92 34.248,-47.43 34.248,-46.655L34.248,-2.188C34.248,-1.527 33.678,-1.082 32.539,-0.854L32.573,-0.854C31.479,-1.06 30.933,-1.595 30.933,-2.461L30.933,-22.456L4.888,-22.456L4.888,-2.324C4.888,-1.527 4.341,-1.037 3.247,-0.854L3.179,-0.854C2.336,-0.854 1.8,-1.458 1.572,-2.666L1.572,-46.108C1.709,-47.453 2.153,-48.125 2.905,-48.125Z" style="fill:rgb(126,130,121);"/>
+        </g>
+    </g>
+    <g id="logo-text">
+        <g id="txt-hs-alpha" transform="matrix(1,0,0,1,165,202)">
+            <text x="0px" y="0px" style="font-family:'advent';font-size:47px;fill:rgb(126,131,122);">HS Alp<tspan x="110.591px 132.54px " y="0px 0px ">ha</tspan></text>
+        </g>
+        <g id="txt-semper-paratus" transform="matrix(1,0,0,1,180,237.5)">
+            <text x="0px" y="0px" style="font-family:'advent';font-size:21px;fill:rgb(97,17,17);">Se<tspan x="19.257px 34.398px 43.932px 52.92px " y="0px 0px 0px 0px ">mper</tspan> Par<tspan x="90.804px 100.233px " y="0px 0px ">at</tspan>us</text>
+        </g>
+    </g>
+</svg>

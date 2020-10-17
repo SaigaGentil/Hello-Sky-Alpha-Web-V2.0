@@ -1,0 +1,426 @@
+/*
+Author: HelloSky Group R&D
+First line of code written on: July 19th 2020 at 4:00PM 
+Purpose: Bruno Axel Kamere Personal Portfolio
+File: CSS - Portfolio Style
+*/
+
+/* -----------------------------------------------------------
+TABLE OF CONTENTS:
+--------------------------------------------------------------
+TODO: Create a table of contents, organize and clean the code
+-------------------------------------------------------------
+
+------------------------------------------------------------*/
+
+/*-----------------------------------------1) General--------------------------------------------------*/
+
+/*----------------------------------------- 3) Helper --------------------------------------------------*/
+
+/* width */
+
+html {
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 382px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.hs-alpha-bottom-svg {
+    /* background-color: #1A603A; */
+    display: block;
+    margin: auto;
+    width: 20%;
+    height: 20%;
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    stroke-linejoin: round;
+    stroke-miterlimit: 2;
+}
+
+.logo-grey-rectangle {
+    fill: rgb(127, 130, 121);
+}
+
+.logo-burgundy-rectangle {
+    fill: rgb(98, 18, 18);
+}
+
+.logo-darkgrey-hexagon {
+    fill: rgb(47, 49, 60);
+}
+
+.logo-grey-h {
+    fill: rgb(126, 130, 121);
+}
+
+#middle-h {
+    transform: matrix(1, 0, 0, 1, 224, 126.5);
+}
+
+#txt-hs-alpha {
+    transform: matrix(1, 0, 0, 1, 165, 202);
+}
+
+.hs-alpha-text {
+    font-family: 'advent';
+    font-size: 47px;
+    fill: rgb(126, 131, 122);
+}
+
+#txt-semper-paratus {
+    transform: matrix(1, 0, 0, 1, 180, 237.5);
+}
+
+.semper-paratus-text {
+    font-family: 'advent';
+    font-size: 21px;
+    fill: rgb(97, 17, 17);
+}
+
+.foot-top {
+    width: 100%;
+    text-align: center;
+    display: table;
+    color: #cccccc;
+}
+
+.socials {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.socials * {
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+.socials li {
+    display: inline-block;
+    list-style: outside none none;
+    float: left;
+    overflow: hidden;
+    width: 25%;
+    font-size: 13px;
+}
+
+.socials a {
+    padding: 0.3em 0.8em;
+    color: rgba(255, 255, 255, 0.7);
+    position: relative;
+    display: inline-block;
+    letter-spacing: 1px;
+    margin: 0;
+    text-decoration: none;
+    padding: 25px 0;
+    width: 100%;
+}
+
+.socials a:before, .socials a:after {
+    position: absolute;
+    transition: all 0.35s ease;
+    -webkit-transition: all 0.35s ease;
+}
+
+.socials a:before {
+    bottom: 100%;
+    display: block;
+    height: 3px;
+    width: 100%;
+    content: "";
+}
+
+.socials a:after {
+    padding: 0.3em 0.8em;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    content: attr(data-hover);
+    color: white;
+    white-space: nowrap;
+    width: 100%;
+    padding: 25px 0;
+}
+
+.socials li:hover a, .socials .current a {
+    transform: translateY(100%);
+}
+
+.facebook {
+    background: #2f2f2f;
+}
+
+.facebook a:after {
+    background-color: #527bbb;
+}
+
+.twitter {
+    background: #2f2f2f;
+}
+
+.twitter a:after {
+    background-color: #77ccf1;
+}
+
+.instagram {
+    background: #2f2f2f;
+}
+
+.instagram a:after {
+    background-color: #E1306C;
+}
+
+.linkedin {
+    background: #2f2f2f;
+}
+
+.linkedin a:after {
+    background-color: #2867B2;
+}
+
+.hs-social {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: small;
+    margin: 0 20px;
+}
+
+/*Header*/
+
+#head-section {
+    /*    width: 100%;*/
+    height: auto;
+    background: rgb(0, 162, 208);
+    background: -moz-linear-gradient(90deg, rgba(0, 162, 208, 1) 0%, rgba(255, 255, 255, 1) 17%);
+    background: -webkit-linear-gradient(90deg, rgba(0, 162, 208, 1) 0%, rgba(255, 255, 255, 1) 17%);
+    background: linear-gradient(90deg, rgba(0, 162, 208, 1) 0%, rgba(255, 255, 255, 1) 17%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00a2d0", endColorstr="#ffffff", GradientType=1);
+}
+
+/*
+.pattern {
+    width: 8%;
+    height: 100%;
+    background-image: url(../img/dot%20pattern.svg);
+    transform: rotate(90deg);
+    float: right;
+}
+*/
+
+.nav-text-box {
+    width: 25%;
+    margin: auto;
+    /*    background-color: antiquewhite;*/
+    /*    text-align: center;*/
+}
+
+.nav-text1 {
+    /*    width: 100%;*/
+    /*    margin: auto;*/
+    /*    background-color: aquamarine;*/
+    text-align: right;
+    line-height: 0.9;
+    margin-top: 20px;
+    user-select: none;
+    /* supported by Chrome and Opera */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+}
+
+.hallo {
+    font-size: 70px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.iam {
+    font-size: 50px;
+    font-weight: 280;
+}
+
+.kamere {
+    font-family: 'advent';
+    letter-spacing: 7px;
+    /* font-style: italic; */
+    color: #031E0B;
+    width: auto;
+    font-size: 70px;
+    /*    background-color: blue;*/
+    font-weight: 350;
+    margin: 0;
+    padding: 0px;
+}
+
+.nav-text3 {
+    font-size: smaller;
+    text-align: right;
+    margin-top: 30px;
+    color: #031E0B;
+    font-style: italic;
+    /*    background-color: aqua;*/
+}
+
+.nav-quote span {
+    display: block;
+}
+
+/*
+.nav-strip {
+    position: sticky;
+    top: 0px;
+}
+*/
+
+.nav-bar {
+    /*    background-color: #1A603A;*/
+    width: 33.33%;
+    float: right;
+    margin-top: -1.6%;
+    border-left: 1px;
+    border-bottom: 0;
+    border-right: 0;
+    border-top: 1px;
+    border-style: groove;
+    border-color: #1A603A;
+}
+
+.nav-links-2 {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin-right: 70px;
+}
+
+.nav-link2 {
+    color: #63635E;
+    text-decoration: none;
+}
+
+.nav-link2:hover {
+    color: black;
+}
+
+.nav-link2:active {
+    color: #1A603A;
+}
+
+.web-wrap-2 {
+    /* position: relative; */
+    height: 100%;
+    /* background-color: green; */
+    padding-bottom: 30px;
+}
+
+.feet {
+    position: absolute;
+    bottom: 0;
+}
+
+.main-web-content {
+    /*    background-color: aqua;*/
+    min-height: 90vh;
+}
+
+.content-div {
+    /* background-color: #2F2F2F; */
+    min-height: 70vh;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    /* border-radius: 15px;  */
+}
+
+.content-div-2 {
+    background-color: #2F2F2F;
+    min-height: 95vh;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    /* border-radius: 15px; */
+}
+
+.about-me-section {
+    position: relative;
+    /* z-index: 1; */
+    /* background-color: #031E0B; */
+}
+
+.about {
+    position: absolute;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 5px 10px 8px whitesmoke;
+    width: 50%;
+    top: 100px;
+    border-radius: 20px;
+}
+
+.read-more {
+    margin-top: 20px;
+    float: right;
+    align-items: center;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: #34000D;
+    color: whitesmoke;
+    cursor: pointer;
+    outline: none;
+}
+
+/* .read-more:hover {
+    background: #0053ba;
+} */
+
+.read-more:active {
+    transform: scale(0.99);
+}
+
+/* .me-image {
+    position: absolute;
+    right: 10%;
+    box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset;
+} */
+
+.contact-me {
+    margin-top: 30px;
+}
+
+.mid-section-1 {
+    /* background-attachment: scroll; */
+    /* position: sticky; */
+    /* bottom: 0; */
+    /* background-color: #031E0B; */
+}
