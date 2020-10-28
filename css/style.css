@@ -50,9 +50,7 @@ footer {
     margin: 0 20px;
 }
 
-.logo-container,
-.nav-links,
-.cart {
+.logo-container, .nav-links, .cart {
     display: flex;
 }
 
@@ -251,7 +249,6 @@ nav {
         opacity: 0;
         transform: translateY(30px);
     }
-
     100% {
         opacity: 1;
         transform: translateY(0px);
@@ -263,7 +260,6 @@ nav {
         opacity: 0;
         transform: translateY(-80px);
     }
-
     100% {
         opacity: 1;
         transform: translateY(0px);
@@ -276,11 +272,9 @@ nav {
     .nav-links {
         width: 130%;
     }
-
     .nav-link {
         position: unset;
     }
-
     .web-wrap-unavailable {
         background-image: url("img/Back_pattern.html");
         height: 100vh;
@@ -290,32 +284,25 @@ nav {
         background-size: cover;
         background-attachment: fixed;
     }
-
     .cart {
         margin-left: 10%;
     }
-
     .presentation {
         flex-direction: column;
     }
-
     .introduction {
         margin-top: 5vh;
         text-align: center;
     }
-
     .intro-text h1 {
         font-size: 30px;
     }
-
     .intro-text p {
         font-size: 18px;
     }
-
     .cta {
         padding: 10px 0px 0px 0px;
     }
-
     .cover img {
         height: 80%;
     }
@@ -329,21 +316,17 @@ nav {
         overflow: hidden;
         height: 92vh;
     }
-
     .web-wrap-unavailable {
         background-image: none !important;
     }
-
     .nav-link {
         color: white;
         position: unset;
     }
-
     .dropdown a {
         text-decoration: none;
         color: white;
     }
-
     .nav-links {
         position: absolute;
         right: 0px;
@@ -358,42 +341,33 @@ nav {
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
     }
-
     .nav-links li {
         opacity: 0;
     }
-
     .nav-links li a:after {
         background: white;
     }
-
     .burger {
         display: block;
         margin-left: 10%;
         cursor: pointer;
     }
-
     .presentation {
         flex-direction: column;
     }
-
     .introduction {
         margin-top: 5vh;
         text-align: center;
     }
-
     .intro-text h1 {
         font-size: 30px;
     }
-
     .intro-text p {
         font-size: 18px;
     }
-
     .cta {
         padding: 10px 0px 0px 0px;
     }
-
     .cover img {
         height: 80%;
         z-index: -1;
@@ -415,7 +389,6 @@ nav {
         opacity: 0;
         transform: translateX(50px);
     }
-
     to {
         opacity: 1;
         transform: translateX(0px);
