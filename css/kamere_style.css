@@ -19,6 +19,22 @@ TODO: Create a table of contents, organize and clean the code
 
 /* width */
 
+:root {
+    --dark_green: #031E0B;
+    /* Light theme colors */
+    --light_main_primary_midnight_blue: #1e1f26;
+    --light_primary_indigo_ink: #283655;
+    --light_main_secondary_blueberry: #4D648D;
+    --light_secondary_periwinkle: #d0e1f9;
+    --light_white: #ffffff;
+    /* Dark theme colors default*/
+    --dark_black: #000000;
+    --dark_main_primary_ocean: #07575b;
+    --dark_primary_grey: #111111;
+    --dark_main_secondary_deep_aqua: #003B46;
+    --dark_secondary_grey: #636363;
+}
+
 html {
     position: relative;
     min-height: 100%;
@@ -119,17 +135,18 @@ html {
 }
 
 .socials li {
-    display: inline-block;
+    /* display: inline-block; */
     list-style: outside none none;
     float: left;
     overflow: hidden;
     width: 25%;
     font-size: 13px;
+    background: var(--dark_primary_grey);
 }
 
 .socials a {
     padding: 0.3em 0.8em;
-    color: rgba(255, 255, 255, 0.7);
+    color: var(--dark_secondary_grey);
     position: relative;
     display: inline-block;
     letter-spacing: 1px;
@@ -169,33 +186,33 @@ html {
     transform: translateY(100%);
 }
 
-.facebook {
+/* .facebook {
     background: #2f2f2f;
-}
+} */
 
 .facebook a:after {
     background-color: #527bbb;
 }
 
-.twitter {
+/* .twitter {
     background: #2f2f2f;
-}
+} */
 
 .twitter a:after {
     background-color: #77ccf1;
 }
 
-.instagram {
+/* .instagram {
     background: #2f2f2f;
-}
+} */
 
 .instagram a:after {
     background-color: #E1306C;
 }
 
-.linkedin {
+/* .linkedin {
     background: #2f2f2f;
-}
+} */
 
 .linkedin a:after {
     background-color: #2867B2;
@@ -418,9 +435,9 @@ html {
     margin-top: 30px;
 }
 
-.mid-section-1 {
-    /* background-attachment: scroll; */
-    /* position: sticky; */
-    /* bottom: 0; */
-    /* background-color: #031E0B; */
-}
+/* .mid-section-1 {
+    background-attachment: scroll;
+    position: sticky;
+    bottom: 0;
+    background-color: #031E0B;
+} */
