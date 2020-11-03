@@ -56,7 +56,7 @@ footer {
     text-decoration: none;
     display: inline-block;
     color: var(--dark_secondary_grey);
-    font-size: small;
+    font-size: 13px;
     margin: 0 20px;
     transition: all 0.3s ease;
 }
@@ -66,7 +66,7 @@ footer {
 }
 
 .center-block {
-    width: 10%;
+    width: 150px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -294,6 +294,15 @@ nav {
     }
 }
 
+@media only screen and (max-width:1470px) {
+    .nav-links {
+        width: 110%;
+    }
+    .nav-link {
+        position: unset;
+    }
+}
+
 /*Tablet View*/
 
 @media only screen and (max-width:1250px) {
@@ -338,11 +347,11 @@ nav {
 
 /*Mobile view*/
 
-@media only screen and (max-width:868px) {
+@media only screen and (max-width:950px) {
     .web-wrap {
         position: relative;
         overflow: hidden;
-        height: 92vh;
+        height: 100%;
     }
     .web-wrap-unavailable {
         background-image: none !important;
@@ -351,23 +360,41 @@ nav {
         color: var(--dark_secondary_grey);
         position: unset;
     }
+    .dropdown {
+        position: unset;
+    }
     .dropdown a {
         text-decoration: none;
         color: var(--dark_secondary_grey);
     }
+    .footer-bottom a {
+        text-decoration: none;
+        display: inline-block;
+        color: var(--dark_secondary_grey);
+        font-size: 10px;
+        margin: 0 10px;
+        transition: all 0.3s ease;
+    }
+    .extra {
+        display: block;
+        font-size: 10px;
+    }
     .nav-links {
         position: absolute;
         right: 0px;
-        height: 100vh;
+        height: 78.5%;
         width: 40%;
-        top: 9vh;
+        top: 8vh;
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: #000000;
+        background-color: white;
         opacity: 0.8;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
+        overflow-y: scroll;
+        justify-content: space-evenly;
+        z-index: 1;
     }
     .nav-links li {
         opacity: 0;
@@ -448,10 +475,10 @@ nav {
     height: auto;
 }
 
-.dropdown {
+/* .dropdown {
     position: relative;
     display: inline-block;
-}
+} */
 
 .dropdown-menu {
     display: none;
