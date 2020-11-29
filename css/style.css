@@ -31,11 +31,18 @@ button {
 }
 
 header {
+    z-index: 1;
+    position: fixed;
     display: flex;
     width: 100%;
     height: 10vh;
     margin: auto;
     align-items: center;
+    background: var(--dark_black);
+}
+
+main {
+    /* top: 10vh; */
 }
 
 footer {
@@ -104,6 +111,11 @@ nav {
     list-style: none;
 }
 
+i[class^='icofont'] {
+    color: var(--dark_secondary_grey);
+    margin-right: 5px;
+}
+
 .nav-link {
     color: var(--dark_secondary_grey);
     font-size: 15px;
@@ -169,6 +181,7 @@ nav {
     margin: auto;
     min-height: 90vh;
     align-items: center;
+    padding-top: 7vh;
 }
 
 .presentation-unavailable {
